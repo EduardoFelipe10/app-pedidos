@@ -1,0 +1,92 @@
+/* Estilos gerais */
+body {
+    font-family:Arial, Helvetica, sans-serif;  
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:#ff9100;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+    color:#213ba5;
+}
+
+
+a:hover {
+    background-color: #555;
+}
+
+/* Estilos de tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 1PX;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #070e86;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #9d9d15;
+}
+
+#cart-icon-container {
+    position: relative;
+}
+
+#cart-icon {
+    width: 40px;
+    cursor: pointer;
+}
+
+#cart-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.topo{
+    color: #000000;
+    
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    transition: background-color 0.3s;
+    background-color: transparent;
+}

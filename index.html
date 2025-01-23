@@ -1,0 +1,916 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="material">Pedidos de Materias</h2>
+        <div id="cart-icon-container">
+            <a href="carrinho.html">
+                <img src="img/icone.png" alt="Carrinho de Compras" id="cart-icon">
+                <span id="cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <table>
+        <thead>
+            <tr class="topo">
+                <th>Imagem</th>
+                <th>Referência</th>
+                <th>Produto</th>
+                <th>Tipo</th>
+                <th>Cor</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+                <th>Adicionar ao Carrinho</th>
+            </tr>
+        </thead>
+
+        <body id="product-list">
+            <!-- Produtos da tabela -->
+            <tr>
+                <td>
+                    <a href="#">
+                        <img src="img/bullet.avif" alt="Câmera Bullet Intelbras" width="100">
+                    </a>
+                </td>
+                <td>SG40</td>
+                <td>Câmera Bullet</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$ 250,00</td>
+                <td><button class="add-to-cart-btn">Incluir na O.S</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_luva_de_puro_gel_revita_skin_longa">
+                        <img src="img/dome.avif" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>SG41</td>
+                <td>Câmera Dome</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$ 250,00</td>
+                <td><button class="add-to-cart-btn">Incluir na O.S</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto__meia_de_puro_gel_revita_skin_longa">
+                        <img src="img/fonte.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>SG42</td>
+                <td>Fonte Nobreak 12V</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$ 120,00</td>
+                <td><button class="add-to-cart-btn">Incluir na O.S</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto__meia_de_puro_gel_revita_skin_longa">
+                        <img src="img/cabo.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>SG42</td>
+                <td>Cabo UTP CAT 6</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$ 800,00</td>
+                <td><button class="add-to-cart-btn">Incluir na O.S</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="#">
+                        <img src="img/disjuntor.png" alt=" DISJUNTOR  " width="100">
+                    </a>
+                </td>
+                <td>PQ107</td>
+                <td>Disjuntor</td>
+                <td>
+                    <select class="product-size">
+                        <option>MONOFASICO</option>
+                        <option>BIFASICO</option>
+                        <option>TRIFASICO</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$ 89,90</td>
+                <td><button class="add-to-cart-btn">Incluir na O.S</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="#">
+                        <img src="" alt="  " width="100">
+                    </a>
+                </td>
+                <td>AC540</td>
+                <td>Cinta Modeladora Ventilada Seca Barriga</td>
+                <td>
+                    <select class="product-size">
+                        <option>PP</option>
+                        <option>P</option>
+                        <option>M</option>
+                        <option>G</option>
+                        <option>GG</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$44,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto_tornozeleira_para_fascite_plantar_e_suporte_articular">
+                        <img src="fotos/COP167.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>COP167</td>
+                <td>Tornozeleira Para Fascite Plantar E Suporte Articular</td>
+                <td>
+                    <select class="product-size">
+                        <option>P/M</option>
+                        <option>G/GG</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$34,90</td>
+                <td><button class="add-to-cart-btn">Incluir na O.S</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto__calcinha_ultrabsorvente_antibacteriana_reutilizavel">
+                        <img src="fotos/SG430.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>SG430</td>
+                <td>Calcinha Ultrabsorvente Antibacteriana Reutilizável</td>
+                <td>
+                    <select class="product-size">
+                        <option>P</option>
+                        <option>M</option>
+                        <option>G</option>
+                        <option>GG</option>
+                        <option>XG</option>
+                        <option>EG</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>MARROM</option>
+                        <option>PRETO</option>
+                        <option>ROSA</option>
+                        <option>BEGE</option>
+                        <option>CHOCOLATE</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$49,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_absorvente_higienico_de_uso_intimo">
+                        <img src="fotos/SG431.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>SG430</td>
+                <td>Absorvente Higiênico De Uso Íntimo</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>PRETO</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$37,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_creme_para_pes_diabetspa">
+                        <img src="fotos/CM110.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>CM110</td>
+                <td>Creme Para Pés Diabetspa</td>
+                <td>
+                    <select class="product-size">
+                        <option>130g</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$39,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_creme_para_pes_diabetspa">
+                        <img src="fotos/SW01.jpeg" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>SW01</td>
+                <td>Estesiometro Monofilamento De Semmes-weinstein</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$39,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_adesivo_termico_instantaneo_sos_colicas">
+                        <img src="fotos/OP02.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>OP02</td>
+                <td>Adesivo Térmico Instantâneo S.o.s Cólicas</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$9,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_compressa_refrescante_sos_febre_">
+                        <img src="fotos/OP01.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>OP01</td>
+                <td>Compressa Refrescante S.o.s Febre</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$21,98</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto_replica_realista_de__gordura_corporal__humana_1kg">
+                        <img src="fotos/SG08.jpg" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>SG08</td>
+                <td>Réplica Realista De Gordura Corporal Humana 1kg</td>
+                <td>
+                    <select class="product-size">
+                        <option>1kg</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$189,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto_replica_realista__de_musculo__corporal__humano_1kg_">
+                        <img src="fotos/sg09.jpg" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>SG09</td>
+                <td>Réplica Realista De Gordura Corporal Humana 1kg</td>
+                <td>
+                    <select class="product-size">
+                        <option>1kg</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$179,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_prendedor_para_exercicios_de_dedos">
+                        <img src="fotos/fg44.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>FG44</td>
+                <td>Réplica Realista De Gordura Corporal Humana 1kg</td>
+                <td>
+                    <select class="product-size">
+                        <option>1kg</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$74,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto_andador_ortopedico_de_aluminio_dobravel_e_articulado">
+                        <img src="fotos/ac3214.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>AC3212</td>
+                <td>Andador Ortopédico De Alumínio Dobrável E Articulado</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Cobre</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$219,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto_andador_ortopedico_de_aluminio_com_rodas_dobravel_e_fixo">
+                        <img src="fotos/ac3212.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>AC3214</td>
+                <td>Andador Ortopédico De Alumínio Com Rodas, Dobrável E Fixo</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Cobre</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$239,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto_andador_ortopedico_de_aluminio_com_rodas_dobravel_e_fixo">
+                        <img src="fotos/ac213.jpeg" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>AC213</td>
+                <td>Bota Imobilizadora Pneumática Curta Brace Pauher</td>
+                <td>
+                    <select class="product-size">
+                        <option>P</option>
+                        <option>M</option>
+                        <option>G</option>
+                        <option>GG</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$279,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto_andador_ortopedico_de_aluminio_com_rodas_dobravel_e_fixo">
+                        <img src="fotos/ac213.jpeg" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>AC214</td>
+                <td>Bota Imobilizadora Pneumática Longa Brace Pauher</td>
+                <td>
+                    <select class="product-size">
+                        <option>P</option>
+                        <option>M</option>
+                        <option>G</option>
+                        <option>GG</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$299,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_bota_imobilizadora_longa_bracepauher">
+                        <img src="fotos/bota.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>AC215</td>
+                <td>Bota Imobilizadora Longa Bracepauher</td>
+                <td>
+                    <select class="product-size">
+                        <option>P</option>
+                        <option>M</option>
+                        <option>G</option>
+                        <option>GG</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$149,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_bota_imobilizadora_curta_bracepauher">
+                        <img src="fotos/bota2.jpg" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>AC216</td>
+                <td>Bota Imobilizadora Curta Bracepauher</td>
+                <td>
+                    <select class="product-size">
+                        <option>P</option>
+                        <option>M</option>
+                        <option>G</option>
+                        <option>GG</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$139,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_palmilha_fresh_effect_4_em_1_">
+                        <img src="fotos/ac211.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>AC211</td>
+                <td>Palmilha Fresh Effect 4 Em 1 Masculina/td>
+                <td>
+                    <select class="product-size">
+                        <option>37/44</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$69,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_palmilha_fresh_effect_4_em_1_">
+                        <img src="fotos/ac211.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>AC211</td>
+                <td>Palmilha Fresh Effect 4 Em 1 Feminina</td>
+                <td>
+                    <select class="product-size">
+                        <option>33/39</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$69,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_palmilha_fresh_effect_4_em_1_">
+                        <img src="fotos/hm02.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>HM02</td>
+                <td>Bracelete Hemostatico da arteria radial</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$69,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto_artro_pauher_suplemento_alimentar___90_capsulas_">
+                        <img src="fotos/vt01.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>VT01</td>
+                <td>Artro Pauher Suplemento Alimentar - 90 Cápsulas</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$39,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto_imuno_pauher_suplemento_alimentar__30_capsulas">
+                        <img src="fotos/vt02.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>VT02</td>
+                <td>Imuno Pauher Suplemento Alimentar- 30 Cápsulas</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$39,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto__uro_pauher_suplemento_alimentar__60_capsulas_">
+                        <img src="fotos/vt03.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>VT03</td>
+                <td>Uro Pauher Suplemento Alimentar- 60 Cápsulas</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$39,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto__uro_pauher_suplemento_alimentar__60_capsulas_">
+                        <img src="fotos/VT04.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>VT04</td>
+                <td>Sono Pauher Suplemento Alimentar- 30 Cápsulas</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$39,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto_diabet_pauher_suplemento_alimentar___60_capsulas">
+                        <img src="fotos/vt05.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>VT05</td>
+                <td>Diabet Pauher Suplemento Alimentar - 60 Cápsulas</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$39,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto_angio_pauher__suplemento_alimentar___90_capsulas">
+                        <img src="fotos/vt06.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>VT06</td>
+                <td>Angio Pauher Suplemento Alimentar - 90 Cápsulas</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$39,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a
+                        href="https://www.orthopauher.com/produto/produto_bastao_auto_massageador_para_relaxamento_muscular_">
+                        <img src="fotos/mg08.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>MG08</td>
+                <td>Bastão Auto-massageador Para Relaxamento Muscular</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Amarelo</option>
+                        <option>Azul</option>
+                        <option>Cinza</option>
+                        <option>Preto</option>
+                        <option>Verde</option>
+                        <option>Vermelho</option>
+                        <option>Laranja</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$47,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_massageador_anatomico_therapists_thumb">
+                        <img src="fotos/mg09.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>MG09</td>
+                <td>Massageador Anatômico Therapists Thumb</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Verde</option>
+
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$37,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+        
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_massageador_anatomico_de_acupressao_">
+                        <img src="fotos/mg10.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>MG10</td>
+                <td>Massageador Anatômico De Acupressão</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Azul</option>
+
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$37,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            <tr>
+                <td>
+                    <a href="https://www.orthopauher.com/produto/produto_massageador_portatil_de_4_pontos_">
+                        <img src="fotos/mg11.png" alt=" BOTA IMOBILIZADORA LONGA BRACE PAUHER " width="100">
+                    </a>
+                </td>
+                <td>MG11</td>
+                <td>Massageador Portátil De 4 Pontos</td>
+                <td>
+                    <select class="product-size">
+                        <option>Único</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="product-color">
+                        <option>Azul</option>
+
+                    </select>
+                </td>
+                <td><input type="number" value="1" min="1" class="product-quantity"></td>
+                <td>R$37,90</td>
+                <td><button class="add-to-cart-btn">Incluir no Carrinho</button></td>
+            </tr>
+            <!-- Adicione mais produtos aqui -->
+            </tbody>
+    </table>
+    <!--inicia codigo chatboot-->
+    <div class="chat-container" id="chat-container">
+        <div class="chat-header">
+            <h4>Chatboot</h4>
+            <button id="close-btn">×</button>
+        </div>
+        <div class="chat-body" id="chat-body">
+            <div class="chat-message bot">Olá, Como posso ajudar você hoje?</div>
+        </div>
+        <div id="chat-input-container">
+        <input type="text" id="chat-input" placeholder="Digite sua mensagem...">
+    </div>
+    </div>
+    
+    <button id="chat-toggle">🤖</button>
+    <script src="script.js"></script>
+</body>
+
+</html>

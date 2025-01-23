@@ -1,0 +1,229 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;  
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(11, 88, 160);
+    color: white;
+    
+    
+}
+
+h2 {
+    color:#ffffff;
+    justify-content: center;
+    display: flex;
+   
+    
+}
+
+
+a:hover {
+    background-color: #555;
+}
+
+/* Estilos de tabelas */
+table {
+    width: 100%;
+    border-collapse: separate;
+    margin: 20px 0;
+    
+}
+
+th, td {
+    border: 1px solid #010101;
+    padding: 1PX;
+    text-align: center;
+}
+
+th {
+    background-color: #f77800;
+}
+
+button {
+    width: 80%;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: 0.4s;
+    border-color: #080808;
+    
+}
+
+button:hover {
+    background-color: #006effd8;
+    
+}
+
+#cart-icon-container {
+    position: relative;
+}
+
+#cart-icon {
+    width: 40px;
+    cursor: pointer;
+    filter: drop-shadow( 15px 15px 20px #e8f403);
+    
+}
+
+#cart-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.td{
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #03e9f4;
+    border-color: aqua;
+}
+
+.topo{
+    color: #ffffff;
+    
+
+}
+
+.product-size{
+    background-color: #040505;
+    border-radius: 4px;
+    color: rgb(240, 238, 238);
+    border-color: #03e9f4;
+}
+
+.product-color{
+    background-color: rgb(3, 3, 3);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    border-color: #03e9f4;
+}
+
+.product-quantity{
+    background-color: #3d3c3c;
+    color:#f2f2f2;
+    border-radius: 4px;
+    border-color: #03e9f4;
+}
+
+.material{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.product-quantity{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* inicia codigo chatboot */
+
+#chat-container {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #0734e6;
+}
+
+.chat-header {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.chat-body {
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.chat-message {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.chat-message.bot {
+    background-color: #f1f1f1;
+    align-self: flex-start;
+    color: #000000;
+}
+
+.chat-message.user {
+    background-color: #054180;
+    color: white;
+    align-self: flex-end;
+}
+
+#chat-input-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px; /* Espaçamento ao redor do input */
+}
+
+#chat-input {
+    width: calc(100% - 20px);
+        max-width: 500px; /* Define uma largura máxima para não ficar muito grande */
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+}
+
+#chat-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#close-btn{
+    padding: 3px 5px; /* Menor espaçamento interno */
+        margin: 4px 2px;
+        border-radius: 5px;
+        font-size: 12px; /* Ajusta o tamanho da fonte */
+        width: 24px; /* Largura do botão */
+        height: 24px; /* Altura do botão */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}

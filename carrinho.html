@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h2>Carrinho de Compras</h2>
+        <a href="index.html"> ↩ Voltar para Produtos</a>
+    </header>
+
+    <div id="cart-container">
+        <h3>Itens no seu Carrinho</h3>
+        <table>
+            <thead>
+                <tr class="topo">
+                    <th>Imagem</th>
+                    <th>Produto</th>
+                    <th>Tamanho</th>
+                    <th>Cor</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                    <th>Remover</th>
+                </tr>
+            </thead>
+            <tbody id="cart-list">
+                <!-- Itens do carrinho vão aparecer aqui -->
+            </tbody>
+        </table>
+    
+        <!-- Exibição do total do pedido -->
+        <h4>Total do Pedido: <span id="total-price">R$ 0,00</span></h4>
+    
+        <button id="clear-cart-btn">Limpar Carrinho</button>
+        <button id="submit-order-btn">Enviar Pedido</button>
+        <p id="order-message"></p>
+    </div>
+    
+
+    <script src="carrinho.js"></script>
+</body>
+
+</html>
